@@ -1,0 +1,10 @@
+c:\users\3de echelon\documents\visual studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\bin\Debug\xDPx Toolbox.exe.config
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\bin\Debug\xDPx Toolbox.exe
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\bin\Debug\xDPx Toolbox.pdb
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx Toolbox.csprojResolveAssemblyReference.cache
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx_Toolbox.Form1.resources
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx_Toolbox.Properties.Resources.resources
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx Toolbox.csproj.GenerateResource.Cache
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx Toolbox.exe
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx Toolbox.pdb
+C:\Users\3de Echelon\Documents\Visual Studio 2013\Projects\xDPx Toolbox\xDPx Toolbox\obj\Debug\xDPx_Toolbox.ErrorReporter.resources

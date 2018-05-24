@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60CE985C-7263-44A9-815D-B9622876776B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>xDPx_Toolbox</RootNamespace>
+    <AssemblyName>xDPx Toolbox</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hacker-pirate.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\..\..\Downloads\DotNetZipLib-DevKit-v1.9\Tools\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ErrorReporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorReporter.Designer.cs">
+      <DependentUpon>ErrorReporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ErrorReporter.resx">
+      <DependentUpon>ErrorReporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext1921929122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OFW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dump Helper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idps viewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PeXploit Custom Downloader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PKG Extractor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps3xport gui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFO Reader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XMB Modder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CFWMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Creator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CTDDTC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DumpHelper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idpsviewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keygen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OFWMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PeXploit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PeXploitCustomDownloader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PKGExtractor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS2ClassicsMini%27sDownloader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PS3Toolbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps3xportgui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFOReader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Testers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XMBModder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idpstealer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hacker-pirate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
